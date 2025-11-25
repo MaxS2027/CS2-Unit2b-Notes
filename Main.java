@@ -22,6 +22,21 @@ public class Main {
       }
       for(l = 10; l<=0; l+=1){
          System.out.println(l + " ");
+
+         //use loop to iterate through character in project
+         //
+
+         String name = "max";
+         int finalIndex = name.length();
+         System.out.println("Final index" + finalIndex);
+
+         for(int i = finalIndex; i>=0; i--){
+            System.out.println("Current index " + i);
+            String currentLetter = name.substring(i, i+1)
+            System.out.println("Current letter: " + currentLetter)
+            string reverse = "vvnkl";
+            System.out.println("Name backwards" + reverse)
+         }
       }
    }
 }
